@@ -1,0 +1,24 @@
+[33mcommit 2fd09a7c7ea06ff23d20e26effff6fe2d838ca7c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 0bf47d6 4a45177
+Author: mun1016 <jy-moon1016@hanmail.net>
+Date:   Sat Jun 6 20:37:22 2026 +0900
+
+    merge conflict resolved
+
+[33mcommit 0bf47d6e8750bad142d04227b29beae4fe357c41[m
+Author: mun1016 <jy-moon1016@hanmail.net>
+Date:   Sat Jun 6 20:34:41 2026 +0900
+
+    version4
+
+[33mcommit 4a45177113c44d800551dc6b1e0a924011a7c3fe[m
+Author: mun1016 <jy-moon1016@hanmail.net>
+Date:   Wed Jun 3 14:05:45 2026 +0900
+
+    version2
+
+[33mcommit dbdc95af74038a4246b4293d2e1fedd687a3e7d8[m
+Author: mun1016 <jy-moon1016@hanmail.net>
+Date:   Wed Jun 3 14:02:01 2026 +0900
+
+    version1

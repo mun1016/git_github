@@ -1,4 +1,5 @@
 hello world1
+<<<<<<< HEAD
 git config --global user.name "mun1016"
 git config --global user.email "jy-moon1016@hanmail.net"git
 
@@ -8,3 +9,6 @@ git commit -m "version3"
 git push origin main
 
 git pull origin main
+=======
+hello wolrd2
+>>>>>>> 4a45177113c44d800551dc6b1e0a924011a7c3fe

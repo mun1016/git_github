@@ -1,1 +1,10 @@
 hello world1
+git config --global user.name "mun1016"
+git config --global user.email "jy-moon1016@hanmail.net"git
+
+
+git add .
+git commit -m "version3"
+git push origin main
+
+git pull origin main

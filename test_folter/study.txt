@@ -1,0 +1,7 @@
+git config --global user.name "mun1016"
+git config --global user.email "jy-moon1016@hanmail.net"
+
+
+git add
+git commit -m "version1"
+git push origin main

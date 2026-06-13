@@ -1,3 +1,6 @@
+https://github.com/
+
+
 git config --global user.name "mun1016"
 git config --global user.email "jy-moon1016@hanmail.net"
 
@@ -14,3 +17,8 @@ git commit -m "메세지"
 
 # 원격  repo에 main브랜치 변경사항을 업로드
 git push origin main
+
+git clone https://github.com/mun1016/git_github.git   주소에 있는 git 작업 한거 내려받기
+
+
+

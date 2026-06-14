@@ -5,12 +5,12 @@ git config --global user.name "mun1016"
 git config --global user.email "jy-moon1016@hanmail.net"
 
 
-git add
+git add .
 git commit -m "version1"
 git push origin main
 
 # git add . 은 모든변경(추가)사항을 staging area 이동
-git add.
+git add .
 
 # git commit은  staging area의 변경사항을 확정짓고 commitID생성
 git commit -m "메세지"
@@ -56,4 +56,7 @@ git log --graph
 
 # main브랜치 뿐만 아니라 전체 commit 이력 조회
 git log --all
+
+# 충돌무시하고 강제 push할때 무조건 내게 맞을때 강제로 올림
+git push origin main --force
 

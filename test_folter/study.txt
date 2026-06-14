@@ -20,5 +20,13 @@ git push origin main
 
 git clone https://github.com/mun1016/git_github.git   주소에 있는 git 작업 한거 내려받기
 
+# 이미 올라가져(push한) 있는 소스 파일을 올리고 싶지 않을때 별의미는 없다.
+# 중요한 파일은 개발전 push 하기전 .gitignore에 등록해라
+git rm -r --cached .
 
+
+# 특정 파일을 git 추적목록에서 제외시키고 싶다면 .gitignore파일에 파일목록 등록
+# 이미 add, commit 되어 버린 파일을 추적목록에서 제외하고 싶다면로 하면 되는데 이미 올라가져 있는건
+# commit 버전이 관리되고 있기때문에 의미 없고 이미 올라가져 있으면 key값을 변경해라
+git rm -r --cached .
 

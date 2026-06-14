@@ -82,4 +82,13 @@ git diff commitID1 commitID2
 # 두개의 브런치 변경 내용 비교
 git diff main origin/main
 
+# git작업 취소
+# commit 이후의 취소
 git rest head~1
+git rest head^
+# staging area로 까지만 취소
+git rest --soft head~1
+
+# push 이후의 취소 -> commit메시지 작성 vi화면으로 이동 -> :qw!   (쉬프트누르르면서 : 선택)
+git revert 기존의커밋ID
+

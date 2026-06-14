@@ -60,3 +60,9 @@ git log --all
 # 충돌무시하고 강제 push할때 무조건 내게 맞을때 강제로 올림
 git push origin main --force
 
+# 특정 commit ID로의 전환(소스코드를 과거의 특정 버전으로 되돌릴때)
+git checkout commitID
+
+# 다시 현재의 브랜치의 commit 되돌아올때
+git checkout 현재브랜치명(main)
+

@@ -82,3 +82,4 @@ git diff commitID1 commitID2
 # 두개의 브런치 변경 내용 비교
 git diff main origin/main
 
+git rest head~1

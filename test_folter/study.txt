@@ -107,3 +107,4 @@ git stash list
 # 저장목록 모두 삭제
 git stash clear
 
+git tag v1.0
